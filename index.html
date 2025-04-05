@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/Css/style.css">
+    <!--FONTE DO TÍTULO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <title>Aplicativo Previsão do Tempo</title>
+</head>
+<body>
+
+    
+    <!--COMECEI COM UM PONTO(.main)-->
+<div class="main">
+    <h1 class="titulo1">Previsão do Tempo</h1>
+    <!--placeholder: aparece a caixinha de pesquisa e uma legenda dentro dela-->
+    <input class="input-cidade" type="text" placeholder="Digite sua cidade">
+    <!--dentro do button está uma imagem-->
+    <!--coloquei o onclick com a função depois de mecher no JavaScript -->
+    <button onclick="coletarValor()" class="pesquisa"><img class="btn" src="https://www.svgrepo.com/show/507417/search-circle.svg" alt=""></button>
+    <div class="box-media">
+        <h2 class="cidade">Cidade</h2>
+        <h2 class="temperatura">Temperatura</h2>
+        <div class="box-pequena">
+            <img class="icone-previsao" src="https://openweathermap.org/img/wn/01n.png" alt="">
+            <!--p: parágrafo-->
+            <p class="previsao" >Nuvens Dispersas</p>
+        </div>
+        <p class="umidade" >Umidade: 85%</p>
+    </div>
+</div> 
+<!--link com o Javascript-->
+<!--script: é para chamar código-->
+<script src="/assets/Js/main.js"></script>  
+</body>
+</html>

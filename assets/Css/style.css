@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /*ALTURA*/
+    height: 100vh;
+    /*LARGURA*/
+    width: 100vw;
+    background-image: url(https://picsum.photos/1920/1080);
+    /*PARA USAR O ALIGN-ITEMS E O JUSTIFY-CONTENT, É NECESSÁRIO COLOCAR DISPLAY: FLEX*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*AQUIIIII*/
+.titulo1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin: 15px;
+    
+    color: white;
+    /*FONTE*/
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+    
+}
+
+
+
+/*ALTERAÇÃO DA IMAGEM DO BOTÃO*/
+.btn {
+    width: 25px;
+    height: 25px;
+    border-style: hidden;
+    outline: none;
+    border-color: transparent;
+}
+
+/*ALTERAÇÃO DE TODOS OS ITENS DA TELA*/
+.main {
+    border: 10px;
+    border-color: #a5e8d3;
+    background-color: #318f9a;
+    opacity: 0.8;
+    border-radius: 10px;
+    /*padding: aumenta a largura e a altura ao mesmo tempo*/
+    border-style: double;
+    padding-right: 400px;
+}
+
+/*ALTERAÇÃO DA CAIXA DE TEXTO*/
+input {
+    border: none;
+    /*outline: tira a linha que aparece quando se passa o mouse na barra de pesquisa*/
+    outline: none;
+    font-size: 20px;
+    background-color: white;
+    
+    padding: 5px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+/*ALTERAÇÃO DO BOTÃO*/
+.pesquisa {
+    /*float: o botão irá para a direita até o máximo*/
+    float: right;
+    /*cursor: pointer= ao colocar o mouse na tela aparecerá um mouse*/
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+/*ALTERAÇÃO DO ÍCONE E <P>*/
+.box-pequena {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    margin: 10px;
+}
